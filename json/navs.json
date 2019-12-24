@@ -1,20 +1,44 @@
 [
 	{
-		"title": "后台首页",
-		"icon": "icon-computer",
+		"title": "首页",
+		"icon": "&#xe68e;",
 		"href": "page/main.html",
 		"spread": false
 	},
 	{
-		"title": "其他页面",
+		"title": "demo",
 		"icon": "&#xe630;",
 		"href": "",
 		"spread": false,
 		"children": [
 			{
 				"title": "404页面",
-				"icon": "&#xe61c;",
+				"icon": "",
 				"href": "page/404.html",
+				"spread": false
+			},
+			{
+				"title": "treeTable",
+				"icon": "",
+				"href": "page/table/authorities.html",
+				"spread": false
+			},
+			{
+				"title": "左树右表",
+				"icon": "",
+				"href": "page/table/table-ltrt.html",
+				"spread": false
+			},
+			{
+				"title": "表单扩展验证",
+				"icon": "",
+				"href": "page/table/formX.html",
+				"spread": false
+			},
+			{
+				"title": "表格CRUD",
+				"icon": "",
+				"href": "page/table/tableCRUD.html",
 				"spread": false
 			}
 		]

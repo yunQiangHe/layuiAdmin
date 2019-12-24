@@ -50,5 +50,11 @@ layui.config({
 		});
 	}
 
+	var option4 = { title: { text: "全国的 layui 用户分布", subtext: "不完全统计" }, tooltip: { trigger: "item" }, dataRange: { orient: "horizontal", min: 0, max: 6e4, text: ["高", "低"], splitNumber: 0 }, series: [{ name: "全国的 layui 用户分布", type: "map", mapType: "china", selectedMode: "multiple", itemStyle: { normal: { label: { show: !0 } }, emphasis: { label: { show: !0 } } }, data: [{ name: "西藏", value: 60 }, { name: "青海", value: 167 }, { name: "宁夏", value: 210 }, { name: "海南", value: 252 }, { name: "甘肃", value: 502 }, { name: "贵州", value: 570 }, { name: "新疆", value: 661 }, { name: "云南", value: 8890 }, { name: "重庆", value: 10010 }, { name: "吉林", value: 5056 }, { name: "山西", value: 2123 }, { name: "天津", value: 9130 }, { name: "江西", value: 10170 }, { name: "广西", value: 6172 }, { name: "陕西", value: 9251 }, { name: "黑龙江", value: 5125 }, { name: "内蒙古", value: 1435 }, { name: "安徽", value: 9530 }, { name: "北京", value: 51919 }, { name: "福建", value: 3756 }, { name: "上海", value: 59190 }, { name: "湖北", value: 37109 }, { name: "湖南", value: 8966 }, { name: "四川", value: 31020 }, { name: "辽宁", value: 7222 }, { name: "河北", value: 3451 }, { name: "河南", value: 9693 }, { name: "浙江", value: 62310 }, { name: "山东", value: 39231 }, { name: "江苏", value: 35911 }, { name: "广东", value: 55891 }] }] };
+	var myEarth = echarts.init(document.getElementById("LAY-index-pagethree"), layui.echartsTheme);
+	myEarth.setOption(option4);
+	window.onresize = myEarth.resize;
+
+
 
 })
