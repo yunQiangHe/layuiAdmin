@@ -15,7 +15,7 @@ layui.config({
     // 渲染表格
     var insTb = table.render({
         elem: '#tableTbTree',
-        url: '../../../json/user.json',
+        url: '../../json/user.json',
         page: true,
         cellMinWidth: 100,
         cols: [[

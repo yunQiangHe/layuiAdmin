@@ -6,6 +6,12 @@
 		"spread": false
 	},
 	{
+		"title": "excel",
+		"icon": "&#xe68e;",
+		"href": "page/excel.html",
+		"spread": false
+	},
+	{
 		"title": "demo",
 		"icon": "&#xe630;",
 		"href": "",

@@ -44,7 +44,7 @@ if (checkRows.data.length == 0) {
 page: 1
 limit: 10
 5. 项目结构
-
+```
 |-assets
 |     |-css               // 样式
 |     |-images            // 图片
@@ -61,3 +61,4 @@ limit: 10
 |-page              // html页面
 |-json              // 模拟数据
 |-index.html        // 主页面
+```
